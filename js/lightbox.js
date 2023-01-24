@@ -1,10 +1,8 @@
-/*const images = document.querySelectorAll('.gallery-image');
+
+const images = document.querySelectorAll('.gallery-image');
 const imagesLight = document.querySelector('.add-image')
 const lightContent = document.querySelector('.image-light')
 const menuIcon1 = document.querySelector(".menu-icon");
-
-
-LightBox
 
 images.forEach(image =>{
   image.addEventListener('click', () =>{
@@ -26,5 +24,3 @@ lightContent.classList.toggle('show')
 imagesLight.classList.toggle('showImage')
   menuIcon1.style.opacity = "0";
 }
-
-*/

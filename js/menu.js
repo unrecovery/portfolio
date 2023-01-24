@@ -20,7 +20,7 @@ window.addEventListener('click', e =>{
 })
 
 
-const words = ["Hola!","Mi Nombre es: ","Kevin Gabriel Rodriguez Mayo"];
+const words = ["Hola!, Mi Nombre es: ","Kevin Gabriel Rodriguez Mayo", "Y Este es Mi Sitio"];
 
 let index = 0;
 
@@ -42,5 +42,5 @@ function updateText() {
     index = 0;
   }
 
-  setTimeout(updateText, 400);
+  setTimeout(updateText, 200);
 }
